@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum</title>
+</head>
+<body>
+    <header>
+        <h1>Luis Juárez</h1>
+    </header>
+    <nav>
+        <ul class="nav-container">
+            <li>Experiencia</li>
+            <li>Habilidades</li>
+            <li>Educación</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+    <aside>
+        <div class="education-container">
+            <h2>Educación</h2>
+            <ul>
+                <li>
+                    <h3>Universidad Mariano Gálvez</h3>
+                    <p>Ingeniería en sistemas</p>
+                </li>
+                <li>
+                    <h3>Cursos De Oracle</h3>
+                    <p>Cursos de desarrollo web</p>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <main>
+        <div class="habilities-container">
+            <h2>Habilidades</h2>
+            <ul>
+                <h3>Habilidades Blandas</h3>
+                <div>
+                    <li>
+                        Trabajo En Equipo
+                    </li>
+                    <li>
+                        Autodidacta
+                    </li>
+                    <li>
+                        Buena Gestion De Tiempo
+                    </li>
+                </div>
+                <h3>Habilidades Técnicas</h3>
+                <div>
+                    <li>
+                        HTML
+                    </li>
+                    <li>
+                        CSS
+                    </li>
+                    <li>
+                        Bootstrap
+                    </li>
+                    <li>
+                        JavaScript
+                    </li>
+                    <li>NodeJS</li>
+                    <li>SQL</li>
+                    <li>MongoDB</li>
+                </div>
+            </ul>
+        </div>
+        <div class="experience-container">
+            <h2>Experiencia Laboral</h2>
+            <ul>
+                <li>
+                    <h3>Full Stack Developer 2019-2022</h3>
+                    <p>Full Stack Web Developer En Google</p>
+                </li>
+                <li>
+                    <h3>Front End Developer 2017-2019</h3>
+                    <p>Desarrollo Front End para aplicaciones web de distintas empresas, tanto nacionales como internacionales</p>
+                </li>
+                <li>
+                    <h3>Back End Developer 2015-2017</h3>
+                    <p>Desarrollo Back End para aplicaciones web de distintas empresas, tanto nacionales como internacionales</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="ftittle"> <h2>Contacto</h2></div>
+        <div class="fcontent">
+            <ul>
+                <li>
+                    <h3>Teléfono</h3>
+                    <p>12345678</p>
+                </li>
+                <li>
+                    <h3>Correo</h3>
+                    <p>correo@correo.com</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <style>*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        background: #001d3d;
+        color: white;
+    }
+    
+    header{
+        background: #000;
+        color: #fff;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        list-style: none;
+        background-color: #003566;
+    }
+    
+    aside {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        width: 400px;
+        height: 300px;
+        margin-left: 70%;
+        margin-top: 150px;
+        border-radius: 20px;
+    }
+    
+    .habilities-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        justify-content: center;
+        width: 400px;
+        margin-top: 30px;
+    }
+    .habilities-container h2 {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .habilities-container h3 {
+        font-size: 14px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .experience-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        justify-content: center;
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    
+    .experience-container h2 {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .experience-container h3 {
+        font-size: 14px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    footer{
+        background: #000;
+        color: #fff;
+        padding: 5px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 70px;
+    }
+    
+    .ftittle{
+        font-size: 20px;
+        margin-left: 20px;
+        align-self: center;
+    }
+    
+    .fcontent{
+        font-size: 14px;
+        width: 50%;
+    }
+    
+    .fcontent ul{
+        display: flex;
+        list-style: none;
+        margin-left: 20px;
+        justify-content: space-evenly;
+    }</style>
+</body>
+</html>
